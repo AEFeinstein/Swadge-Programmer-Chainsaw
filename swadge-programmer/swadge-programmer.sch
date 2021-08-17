@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -868,8 +868,6 @@ Wire Wire Line
 	1450 4400 1400 4400
 NoConn ~ 1400 4900
 NoConn ~ 1400 5000
-NoConn ~ 1400 5100
-NoConn ~ 1000 5100
 NoConn ~ 1000 5000
 NoConn ~ 1000 4900
 $Comp
@@ -1209,4 +1207,70 @@ Text GLabel 6500 1650 0    50   Input ~ 0
 SDA
 Text GLabel 6500 2300 0    50   Input ~ 0
 _RES
+Text GLabel 950  5100 0    50   Input ~ 0
+LED_OUT
+Text GLabel 1450 5100 2    50   Input ~ 0
+LED_OUT
+Wire Wire Line
+	1400 5100 1450 5100
+Wire Wire Line
+	1000 5100 950  5100
+$Comp
+L Swadge_Parts:Conn_01x03_Male J6
+U 1 1 611EE9D3
+P 6700 3150
+F 0 "J6" H 6650 3350 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6550 3000 50  0000 C CNN
+F 2 "Swadge_Parts:PinHeader_1x03_P2.54mm_Vertical" H 6600 3250 50  0001 C CNN
+F 3 "~" H 6700 3350 50  0001 C CNN
+F 4 "1849-1003-ND" H 6800 3450 50  0001 C CNN "Digikey"
+F 5 "10" H 6900 3550 50  0001 C CNN "Cost100"
+F 6 "Y" H 7000 3650 50  0001 C CNN "Substitutable"
+	1    6700 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6950 3150 2    50   Input ~ 0
+LED_OUT
+$Comp
+L Swadge_Parts:GND #PWR015
+U 1 1 611F0346
+P 6950 3250
+F 0 "#PWR015" H 6950 3000 50  0001 C CNN
+F 1 "GND" H 6955 3077 50  0000 C CNN
+F 2 "" H 6950 3250 50  0001 C CNN
+F 3 "" H 6950 3250 50  0001 C CNN
+	1    6950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Swadge_Parts:+5V #PWR014
+U 1 1 611F0C47
+P 6950 3050
+F 0 "#PWR014" H 6950 2900 50  0001 C CNN
+F 1 "+5V" H 6965 3223 50  0000 C CNN
+F 2 "" H 6950 3050 50  0001 C CNN
+F 3 "" H 6950 3050 50  0001 C CNN
+	1    6950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3050 6950 3050
+Wire Wire Line
+	6900 3150 6950 3150
+Wire Wire Line
+	6900 3250 6950 3250
+Wire Notes Line
+	6100 2650 7500 2650
+Wire Notes Line
+	7500 2650 7500 3600
+Wire Notes Line
+	7500 3600 6100 3600
+Wire Notes Line
+	6100 3600 6100 2650
+Text Notes 6150 2750 0    50   ~ 0
+LED Out
+Wire Notes Line
+	6100 2800 6500 2800
+Wire Notes Line
+	6500 2800 6500 2650
 $EndSCHEMATC
