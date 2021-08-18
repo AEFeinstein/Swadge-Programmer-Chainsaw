@@ -201,11 +201,11 @@ L Swadge_Parts:CP2102N-A01-GQFN24 U2
 U 1 1 5C434136
 P 3150 2250
 F 0 "U2" H 3300 3150 50  0000 C CNN
-F 1 "CP2102N-A01-GQFN24" H 3650 3050 50  0000 C CNN
+F 1 "CP2102N-A02-GQFN24R" H 3650 3050 50  0000 C CNN
 F 2 "Swadge_Parts:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 3600 1450 50  0001 L CNN
 F 3 "http://www.silabs.com/support%20documents/technicaldocs/cp2102n-datasheet.pdf" H 3200 1200 50  0001 C CNN
 F 4 "135" H 0   0   50  0001 C CNN "Cost100"
-F 5 "336-4737-1-ND" H 0   0   50  0001 C CNN "Digikey"
+F 5 "336-5888-1-ND" H 0   0   50  0001 C CNN "Digikey"
 F 6 "Y" H 0   0   50  0001 C CNN "Substitutable"
 	1    3150 2250
 	1    0    0    -1  
