@@ -1,0 +1,19 @@
+### Module positions - created on 08/17/21 23:36:29 ###
+### Printed by Pcbnew version kicad (5.1.9)-1
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                 Package                                   PosX       PosY       Rot  Side
+C1        0.1u                C_0603_1608Metric                       6.3050    -2.3400   90.0000  top
+C2        4.7u                C_0603_1608Metric                       6.2450    -2.3400   90.0000  top
+C3        0.1u                C_0603_1608Metric                       6.1500    -2.4000  180.0000  top
+C4        4.7u                C_0603_1608Metric                       6.1500    -2.4600  180.0000  top
+D1        SP0503BAHT          SOT-143                                 6.5450    -2.3200   90.0000  top
+J1        USB_B_Micro         USB_Micro-B_Molex_47346-0001            6.4350    -2.0750  180.0000  top
+R1        22.1k               R_0603_1608Metric                       6.1500    -2.5200    0.0000  top
+R2        47.5k               R_0603_1608Metric                       6.1500    -2.5800  180.0000  top
+R3        1k                  R_0603_1608Metric                       6.1500    -2.6400  180.0000  top
+SW1       4-1437565-2         SW_4-1437565-2                          6.6409    -4.4800   90.0000  top
+SW2       4-1437565-2         SW_4-1437565-2                          6.3009    -4.4800   90.0000  top
+SW3       4-1437565-2         SW_4-1437565-2                          5.9609    -4.4800  270.0000  top
+U2        CP2102N-A01-GQFN24  QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm     6.3176    -2.5306  270.0000  top
+## End
